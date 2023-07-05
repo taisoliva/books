@@ -3,6 +3,7 @@ Estudando Prisma
 
 ## Alguns Comandos Seguidos
 npm i 
+
 npx prisma init 
 
 Criado o banco de dados pelo schema.prisma 
