@@ -6,7 +6,7 @@ npm i
 
 npx prisma init 
 
-# Criado o banco de dados pelo schema.prisma 
+# Criando o banco de dados pelo schema.prisma 
 ``` shell 
 model Book {
   id          Int      @id @default(autoincrement())
