@@ -8,7 +8,7 @@ npx prisma init
 
 Criado o banco de dados pelo schema.prisma 
 
-model Book {
+"model Book {
   id Int @id @default(autoincrement())
 
   title String 
@@ -28,7 +28,7 @@ model Book {
   cover String @default("default_value")
 
   @@map("books")
-}
+}"
 
 npx prisma generate
 
