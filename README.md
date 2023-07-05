@@ -7,8 +7,8 @@ npm i
 npx prisma init 
 
 # Criado o banco de dados pelo schema.prisma 
-
-``` shell model Book {
+``` shell 
+model Book {
   id          Int      @id @default(autoincrement())
   title       String
   author      String
@@ -21,7 +21,7 @@ npx prisma init
 
   @@map("books")
 }
-
+```
 npx prisma generate
 
 npx prisma migrate dev
