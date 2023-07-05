@@ -8,7 +8,7 @@ npx prisma init
 
 # Criado o banco de dados pelo schema.prisma 
 
-model Book {
+``` shell model Book {
   id          Int      @id @default(autoincrement())
   title       String
   author      String
@@ -23,7 +23,5 @@ model Book {
 }
 
 npx prisma generate
-
-# Alterando o database de pg para prisma
 
 npx prisma migrate dev
